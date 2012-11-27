@@ -1,4 +1,8 @@
 /*
+ * Copyright (C) 2012 Big Nerd Ranch, Inc.
+ * - Updated to use the library project.
+ * 
+ * Based on previous work:
  * Copyright (C) 2011 Ievgenii Nazaruk
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -14,17 +18,17 @@
  * limitations under the License.
  */
 
-package com.inazaruk.example;
+package com.bignerdranch.android.mapfragment;
 
 import android.os.Bundle;
 import com.google.android.maps.MapActivity;
 
-public class MyMapActivity extends MapActivity {
+public class SimpleMapActivity extends MapActivity {
     
     @Override
     protected void onCreate(Bundle icicle) {
         super.onCreate(icicle);
-        setContentView(R.layout.my_map_activity);
+        setContentView(R.layout.map_activity);
     }
     
     @Override

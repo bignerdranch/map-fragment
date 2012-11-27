@@ -1,4 +1,8 @@
 /*
+ * Copyright (C) 2012 Big Nerd Ranch, Inc.
+ * - Updated to function as a library project.
+ * 
+ * Based on previous work:
  * Copyright (C) 2011 Ievgenii Nazaruk
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -14,7 +18,7 @@
  * limitations under the License.
  */
 
-package com.inazaruk.example;
+package com.bignerdranch.android.mapfragment;
 
 import android.app.Activity;
 import android.content.Intent;

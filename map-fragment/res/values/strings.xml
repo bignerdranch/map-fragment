@@ -4,7 +4,7 @@
     <string name="hello">Hello World, MapFragmentExampleActivity!</string>
     <string name="app_name">MapFragmentExample</string>
     
-    <string name="inazaruk_debug_googlemaps_sdk_key">0dndT94moYynYoLxXf5GGq3jQmCgfy-ZjfJg4gQ</string>
-    <item type="string" name="googlemaps_sdk_key">@string/inazaruk_debug_googlemaps_sdk_key</item>
+    <string name="debug_googlemaps_api_key">0CpvRJIc7KNDL4Hig5ltbnZHkJ2s5F-wwyfTLUg</string>
+    <item type="string" name="googlemaps_api_key">@string/debug_googlemaps_api_key</item>
 
 </resources>
